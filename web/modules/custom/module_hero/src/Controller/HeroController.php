@@ -24,7 +24,7 @@ class HeroController {
 
     $ourHeroes = '';
     foreach ($heroes as $hero) {
-      $ourHeroes .= '<li>' . $hero['name'] . '</li>'
+      $ourHeroes .= '<li>' . $hero['name'] . '</li>';
     }
 
     return [
