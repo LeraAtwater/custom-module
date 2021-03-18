@@ -18,16 +18,5 @@ services:
     volumes:
       - ./:/var/www/html
     restart: always
-  solr:
-    image: solr:8
-    ports:
-      - "8983:8983"
-    volumes:
-      - ./mycores/collection1:/mycores/collection1
-    entrypoint:
-      - docker-entrypoint.sh
-      - solr-precreate
-      - collection1
-      - /mycores/collection1
 volumes:
   db_data:
