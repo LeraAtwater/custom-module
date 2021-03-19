@@ -29,6 +29,7 @@
         "drupal/module_filter": "^3.2",
         "drupal/search_api_location": "^1.0@alpha",
         "drupal/search_api_solr": "^4",
+        "drupal/uswds_base": "^2.4",
         "drush/drush": "^10.4",
         "kint-php/kint": "^3.3"
     },
